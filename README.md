@@ -1,4 +1,11 @@
 Online Banking Management System – Java (Swing + SQLite)
+👥 Team: 404Error
+
+Prashant Upadhyay — Team Leader
+
+Avnish Kumar — Team Member
+
+Abhinav Yadav — Team Member
 
 A complete desktop-based Online Banking Management System built using Java Swing for UI and SQLite for backend storage.
 The project includes secure login, user registration, admin panel, and full banking operations (deposit, withdraw, transfer, statement, account management).
@@ -106,57 +113,39 @@ description
 target_acc_id
 
 ▶️ How to Run
-1. Download SQLite JDBC Driver (optional)
-
-SQLite works without external setup.
-
-2. Compile
+1. Compile
 javac BankSystemSQLite.java
 
-3. Run
+2. Run
 java BankSystemSQLite
 
-4. A file bankdb.db will auto-generate
 
-All tables will be created automatically.
+A file bankdb.db will be generated automatically.
 
-🔐 Security Details
+🔐 Security
 
-Uses SHA-256 hashing
+SHA-256 hashing
 
-Unique random salt per user
+Random salt per user
 
-Prevents raw password storage
+Input validation
 
-Input validation & role-based access
-
-📝 Screens
-
-Login Page
-
-Registration Page
-
-User Dashboard
-
-Admin Panel
-
-Transaction Dialog Boxes
+Role-based access
 
 💡 Future Enhancements
 
-Add email OTP verification
+OTP-based login
 
-Add PDF statement generation
+PDF mini statement
 
-Add loan management module
+Loan module
 
-Add front-end themes (dark mode)
+Dark mode UI
 
 🤝 Contributing
 
-Pull requests are welcome!
-For major changes, open an issue first to discuss.
+Feel free to submit issues or pull requests.
 
 📜 License
 
-This project is free to use for learning and academic purposes.
+This project is free for educational and academic use.
